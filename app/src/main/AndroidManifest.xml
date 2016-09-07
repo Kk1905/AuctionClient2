@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.auctionclient">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.AuctionClientActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Activity.ViewItemActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Activity.ManageKindActivity"
+            android:label="@string/manage_kind" />
+        <activity
+            android:name=".Activity.AddKindActivity"
+            android:label="@string/add_kind_title" />
+        <activity
+            android:name=".Activity.ManageItemActivity"
+            android:label="@string/manage_item" />
+        <activity
+            android:name=".Activity.AddItemActivity"
+            android:label="@string/add_item_title"/>
+        <activity
+            android:name=".Activity.ViewBidActivity"
+            android:label="@string/view_bid" />
+        <activity
+            android:name=".Activity.ChooseKindActivity"
+            android:label="@string/choose_kind" />
+        <activity
+            android:name=".Activity.ChooseItemActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".Activity.AddBidActivity"
+            android:label="@string/item_detail_title" />
+    </application>
+
+</manifest>
